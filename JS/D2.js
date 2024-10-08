@@ -124,6 +124,10 @@ if (num2 > num1 && num2 > num3 && num3 > num1) {
 if (num3 > num2 && num3 > num1 && num1 > num2) {
   console.log("l'ordine sarà:", num3, num1, num2);
 }
+
+
+?????????
+
   */
 
 /*_____________________________________________________*/
@@ -172,42 +176,89 @@ if(num1 % 2 === 0){
     } else {
       console.log("Uguale a 10 o maggiore");
     }
+
+
+    ??????????
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* _____________________________________________________________ */
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
 
+/*
 const me = {
   name: "John",
   lastName: "Doe",
   skills: ["javascript", "html", "css"],
+  city: "Toronto",
 };
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log(me);
+
+*/
+
+/* ____________________________________________________________ */
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+  city: "Toronto",
+};
+
+console.log(me);
+
+delete me.lastName;
+
+*/
+
+/* ____________________________________________________ */
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+  city: "Toronto",
+};
+
+me.skills.pop();
+console.log(skills);
+
+????????
+
+*/
+
+/* ___________________________________________________________ */
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
+/*const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];*/
+
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+/*___________________________________________________*/
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const num = num.splice(10, 100);
+
+*/
